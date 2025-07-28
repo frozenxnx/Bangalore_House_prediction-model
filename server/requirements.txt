@@ -1,1 +1,4 @@
 flask
+numpy
+pickle
+json
