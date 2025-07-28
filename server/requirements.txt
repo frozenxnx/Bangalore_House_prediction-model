@@ -1,3 +1,4 @@
 flask
 numpy
 scikit-learn
+gunicorn==22.0.0
