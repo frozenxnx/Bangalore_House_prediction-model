@@ -1,5 +1,13 @@
+# Web framework
 flask==3.1.1
+gunicorn==22.0.0   # WSGI server for Render
+
+# Machine Learning stack
 numpy==1.26.4
-scikit-learn==1.4.2
 scipy==1.13.1
-gunicorn==22.0.0
+scikit-learn==1.4.2
+pandas==2.2.2
+
+# Optional helpers
+joblib==1.4.2      # model persistence (used by scikit-learn)
+threadpoolctl==3.5.0  # dependency for scikit-learn
